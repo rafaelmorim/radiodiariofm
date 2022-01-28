@@ -1,0 +1,260 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F5;
+    color: #1D1D1B;
+}
+
+header{
+    background: url('../imgs/bg-header.png') top center no-repeat;
+}
+
+.carousel-inner{
+    border-radius: 15px !important;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bg-ouca-agora{
+    background: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 15px;
+}
+
+/* MENU */
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+  
+nav li a {
+    display: block;
+    padding: 8px;
+    color: #1D1D1B;
+    text-decoration: none;
+    letter-spacing: .1em;
+    transition: .2s;
+}
+nav li a:hover {
+    text-decoration: none;
+    color: #CC726F;
+}
+
+.bg-ouca-agora h2{
+    font-size: 24px;
+    color: #CC726F;
+}
+.bg-ouca-agora h3{
+    font-size: 16px;
+}
+
+.bg-ouca-agora small{
+    font-size: 12px;
+}
+.bg-ouca-agora p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* titulos */
+.videos .titulo,
+.facebook .titulo,
+.enquete .titulo,
+.news .titulo,
+.as10mais .titulo{
+    font-size: 24px;
+    font-family: 'Roboto-Bold', sans-serif;
+    color: #993734;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* AS 10 + */
+.listaTop10{
+    width: 99%;
+}
+
+.bg-listaTop10{
+    height: 660px;
+    overflow-y: scroll;
+}
+.bg-listaTop10::-webkit-scrollbar {
+    width: 8px;
+}
+
+.bg-listaTop10::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #E5E5E5;
+    padding: 8px;
+}
+
+.bg-listaTop10::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(204, 114, 111, 0.5);
+}
+  
+.bg-listaTop10::-webkit-scrollbar-thumb:hover {
+    background: rgba(204, 114, 111, 1);
+}
+
+
+.listaTop10,
+.listaTop10 li,
+.listaTop10 a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #1D1D1B;
+    font-family: 'Montserrat' , 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.listaTop10 a span{
+    font-size: 16px;
+}
+.listaTop10 a h2{
+    font-size: 24px;
+    color: #CC726F;
+}
+.listaTop10 a h3{
+    font-size: 16px;
+}
+.listaTop10 a{
+    display: block;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+    transition: .2s;
+}
+.listaTop10 a:hover{
+    background: #FFF0F0;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+}
+.listaTop10 a img{
+    margin-right: 8px;
+}
+.listaTop10 a span i{
+    color: #C4C4C4;
+}
+
+/* NEWS */
+.verTodas {
+    color: #CC726F;
+}
+.verTodas:hover {
+    text-decoration: none;
+    color: #993734;
+}
+
+.news a{
+    color: #1D1D1B;
+}
+.news .list-group-item h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.news .list-group-item p{
+    font-weight: 300;
+}
+.news .list-group-item small{
+    font-weight: 300;
+}
+.news .list-group-item .img{
+    width: 350px;
+    margin-right: 16px;
+}
+
+/* enquete */
+.bg-enquete{
+    background: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 15px;
+}
+.enquete .pergunta{
+    font-size: 20px;
+    color: #CC726F;
+    font-family: 'Roboto-Bold', sans-serif;
+}
+
+.bg-video{
+    background: #1D1D1B;
+    height: auto;
+}
+
+/* RODAPE */
+footer{
+    background: #4D1C1A;
+    color: #E5E5E5;
+}
+
+.endereco p{
+    font-size: 14px;
+}
+
+.menu-rodape,
+.menu-rodape li,
+.menu-rodape a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #E5E5E5;
+}
+.menu-rodape li{
+    margin-bottom: 8px;
+}
+.menu-rodape a {
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+
+.rede-sociais {
+    display: flex;
+    flex-direction: column;
+}
+.rede-sociais a{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.rede-sociais a i{
+    font-size: 32px;
+    padding-right: 8px;
+}
+
+.rede-sociais a span{
+    transition: .3s;
+}
+.rede-sociais a:hover > span{
+    margin-left: 4px;
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 800px) {
+    /* #menu is the original menu */
+    #menu {
+        display:none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .bg-listaTop10{
+        height: 850px;
+    }
+}
